@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose something the project does not do yet.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A feature that lands has to be carried forever, so the useful part of this form
+        is the problem — not the solution. Describe what you are trying to do and what
+        is stopping you.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and where does the project get in the way?
+      placeholder: |
+        I run three projects behind one gateway and need per-project …, because …
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you have in mind
+      description: Optional. If you have a shape in mind, sketch it — a flag, an endpoint, a config key.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you tried instead
+      description: Workarounds, other tools, or why the existing options do not cover it.
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Does this change behaviour for existing deployments?
+      options:
+        - "No — new opt-in surface"
+        - "Yes — changes a default"
+        - "Yes — breaking"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to open a pull request for this.

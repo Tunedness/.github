@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Tunedness/.github/blob/main/SECURITY.md
+    about: Never report a vulnerability in a public issue. This explains how to report one privately.
+  - name: Question or help running a project
+    url: https://github.com/Tunedness/.github/blob/main/SUPPORT.md
+    about: Where questions go, and what to include so they can be answered.
+  - name: Ragmux — self-hosted AI gateway
+    url: https://ragmux.com
+    about: Documentation and downloads for Ragmux.
+  - name: Contextator — MCP documentation server
+    url: https://contextator.com
+    about: Documentation and downloads for Contextator.
+  - name: Commercial licensing
+    url: https://tunedness.com
+    about: AGPL-licensed projects are also available under a commercial license.

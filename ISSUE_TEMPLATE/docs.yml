@@ -1,0 +1,26 @@
+name: Documentation problem
+description: Something in a README or in docs/ is wrong, missing, or misleading.
+labels: ["documentation"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: File and heading, or the URL of the page.
+      placeholder: docs/configuration.md — "Behind a reverse proxy"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Wrong, out of date, ambiguous, or missing — and what it cost you to find out.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What it should say
+      description: Optional. Even a rough sentence helps.
