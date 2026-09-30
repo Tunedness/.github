@@ -1,5 +1,7 @@
 # Tunedness
 
+[![Designed & Maintained with Tan](https://www.muhammetsafak.com.tr/badges/designed-maintained-with-tan.svg)](https://www.muhammetsafak.com.tr/en/tan/)
+
 **Infrastructure for AI systems that have to run in someone else's building.**
 
 Tunedness builds the layer underneath AI applications: the gateway that carries the
